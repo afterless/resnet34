@@ -22,7 +22,7 @@ If you are on Windows, you can run this:
 ```bash
 $env:ENV_PATH='c:\users\<user_name>\resnet34\.env'
 conda create -p $env:ENV_PATH python=3.9 -y
-conda install -p $env:ENV_PATH pytorch=1.12.0 torchtext torchdata torchvision -c pytorch -y
+conda install -p $env:ENV_PATH pytorch=2.0.0 torchtext torchdata torchvision -c pytorch -y
 conda run -p $ENV_PATH pip install -r requirements.txt
 ```
 
